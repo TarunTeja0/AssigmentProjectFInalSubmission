@@ -47,6 +47,7 @@ class DetailsActivity : AppCompatActivity() {
         rating.text = product.rating.toString() + "/5"
         category.text = product.category
         brand.text = product.brand
+        stock.text = product.stock.toString()
         description.text = product.description
 
     }
